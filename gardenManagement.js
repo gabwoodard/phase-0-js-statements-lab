@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-const temperature = 90;
-const timeOfDay = "morning";
-let soilMoisture = 30;
-=======
 const temperature = 90;
 const timeOfDay = "morning";
 let soilMoisture = 30;
@@ -26,9 +21,15 @@ if (temperature > 80) {
 }
 
 if (timeOfDay === "evening") {
-    console.log("Lights On");
+  console.log("Lights On");
 } else {
-    console.log("Lights Off");
+  console.log("Lights Off");
+}
+
+if (timeOfDay === "night") {
+  console.log("Lights On");
+} else {
+  console.log("Lights Off");
 }
 
 while (soilMoisture < 40) {
@@ -37,4 +38,3 @@ while (soilMoisture < 40) {
 }
 
 module.exports = { temperature, timeOfDay, soilMoisture, manageGarden };
->>>>>>> 883f953 (Initial commit with gardenManagement.js and tests)
