@@ -1,15 +1,27 @@
 {
   "name": "phase-0-js-statements-lab",
   "version": "1.0.0",
+<<<<<<< HEAD
   "main": "index.js",
+=======
+  "description": "",
+  "main": "phase-0-js-statements-lab.js",
+>>>>>>> 883f953 (Initial commit with gardenManagement.js and tests)
   "scripts": {
     "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
   }
 }
+=======
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
+>>>>>>> 883f953 (Initial commit with gardenManagement.js and tests)
